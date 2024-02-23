@@ -1,0 +1,98 @@
+worlds:
+  world_creation:
+    temporary:
+      seed: 123456789
+      generator: NORMAL
+      environment: NORMAL
+      difficulty: NORMAL
+      gamemode: SURVIVAL
+      pvp: true
+      worldborder:
+        center:
+        x: 0
+        z: 0
+        size: 1000
+        damage: true
+        damage_amount: 0.2
+        damage_buffer: 5
+        warning_time: 15
+        warning_blocks: 5
+      spawn:
+        x: 0
+        y: 64
+        z: 0
+        yaw: 0
+        pitch: 0
+      nether: false
+      end: false
+    event:
+      seed: 123456789
+      generator: NORMAL
+      environment: NORMAL
+      difficulty: NORMAL
+      gamemode: SURVIVAL
+      pvp: true
+      worldborder:
+        center:
+          x: 0
+          y: 0
+          z: 0
+          size: 5000
+          damage: true
+          damage_amount: 0.2
+          damage_buffer: 5
+          warning_time: 15
+          warning_blocks: 5
+      spawn:
+        x: 0
+        y: 64
+        z: 0
+        yaw: 0
+        pitch: 0
+      nether: false
+      end: false
+    mining:
+        seed: 123456789
+        generator: NORMAL
+        environment: NORMAL
+        difficulty: NORMAL
+        gamemode: SURVIVAL
+        pvp: false
+        worldborder:
+            center:
+            x: 0
+            y: 0
+            z: 0
+            size: 10000
+            damage: false
+            damage_amount: 0
+            damage_buffer: 0
+            warning_time: 15
+            warning_blocks: 5
+        spawn:
+            x: 0
+            y: 64
+            z: 0
+            yaw: 0
+            pitch: 0
+        nether:
+            enabled: true
+            environment: NETHER
+            spawn:
+                x: 0
+                y: 64
+                z: 0
+                yaw: 0
+                pitch: 0
+            worldborder:
+                center:
+                x: 0
+                y: 0
+                z: 0
+                size: 1000
+                damage: true
+                damage_amount: 0.2
+                damage_buffer: 5
+                warning_time: 15
+                warning_blocks: 5
+        end: false

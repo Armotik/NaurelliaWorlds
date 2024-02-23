@@ -1,0 +1,4 @@
+name: NaurelliaWorlds
+version: '${project.version}'
+main: fr.naurellia.naurelliaworlds.NaurelliaWorlds
+api-version: '1.20'
